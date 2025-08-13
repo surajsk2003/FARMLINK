@@ -12,11 +12,11 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "https://agrisage-backend.railway.app"
+    "REACT_APP_API_URL": "https://farmlink-backend.railway.app"
   },
   "build": {
     "env": {
-      "REACT_APP_API_URL": "https://agrisage-backend.railway.app"
+      "REACT_APP_API_URL": "https://farmlink-backend.railway.app"
     }
   }
 }

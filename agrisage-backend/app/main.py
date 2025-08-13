@@ -13,7 +13,7 @@ load_dotenv()
 
 # Initialize FastAPI
 app = FastAPI(
-    title="AgriSage AI API",
+    title="FarmLink API",
     description="Agricultural Intelligence Assistant API - 100% FREE",
     version="2.0.0"
 )
@@ -73,7 +73,7 @@ app.include_router(sms.router)
 @app.get("/")
 async def root():
     return {
-        "message": "AgriSage AI API is running! 🌾",
+        "message": "FarmLink API is running! 🌾",
         "version": "2.0.0",
         "cost": "100% FREE",
         "docs": "/docs",
