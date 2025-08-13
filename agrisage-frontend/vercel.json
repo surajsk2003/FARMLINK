@@ -12,11 +12,11 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "https://farmlink-backend.railway.app"
+    "REACT_APP_API_URL": "https://farmlink-backend-iq4o.onrender.com"
   },
   "build": {
     "env": {
-      "REACT_APP_API_URL": "https://farmlink-backend.railway.app"
+      "REACT_APP_API_URL": "https://farmlink-backend-iq4o.onrender.com"
     }
   }
 }
