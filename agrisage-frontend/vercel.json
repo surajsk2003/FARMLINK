@@ -1,0 +1,22 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "REACT_APP_API_URL": "https://agrisage-backend.railway.app"
+  },
+  "build": {
+    "env": {
+      "REACT_APP_API_URL": "https://agrisage-backend.railway.app"
+    }
+  }
+}
